@@ -37,8 +37,7 @@
 
 ## 運用ルーチン
 
-- **作業のたびに必ず自動バックアップ**: 一区切りつくたびに `git add . && git commit -m "auto backup" && git push` を実行（`.gitignore`で素材/は除外済み。LP変更時はこれがそのままCloudflare Pages再デプロイを兼ねる）
-- **docs/ 更新後はrcloneでDrive同期**: `"C:\Users\tanaka\AppData\Local\Microsoft\WinGet\Packages\Rclone.Rclone_Microsoft.Winget.Source_8wekyb3d8bbwe\rclone-v1.74.3-windows-amd64\rclone.exe" copy docs gdrive:higgsfield/docs --include "*.md"`
+- **作業のたびに必ず自動バックアップ**: 一区切りつくたびに `git add . && git commit -m "backup" && git push` を実行（`.gitignore`で素材/は除外済み。LP変更時はこれがそのままCloudflare Pages再デプロイを兼ねる）。バックアップはこのgitフローに一本化（Drive同期は廃止）
 - **LP変更**: 編集→commit→push（Cloudflare Pagesが自動再デプロイ）
 - **毎週月曜**: BGMリサーチ（IG急上昇→TikTok→Spotifyバイラル日本版）→数値管理シートのBGM列に記録
 - ffmpegはimageio-ffmpeg同梱の静的バイナリを使用（システム未インストール）。Demucs導入済み（GPU可）
