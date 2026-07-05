@@ -53,7 +53,8 @@
 
 ### G. 公開作業
 - [x] ホスティング先確定：**Cloudflare Pages**（2026-07-05）。デプロイ方式＝ダッシュボードのDirect Upload（`src/lp` フォルダをドラッグ&ドロップ）または wrangler CLI（要ログイン）
-- [ ] デプロイ→本番URLでB〜Eを再確認
+- [x] デプロイ完了（2026-07-05）：**https://salon-reel.pages.dev**（GitHub `Kimagure3737/salon-reel` main→Cloudflare Pages自動デプロイ。noindex・OGP・タイトルを本番URLで確認済み）
+- [ ] 本番URLでB〜Eを再確認（実機での表示・CTAクリック）
 - [ ] IGプロフィールにURL設定→C型投稿の運用開始
 
 ## 3. 記入テンプレート（値を入れて返信すればそのまま反映します）
