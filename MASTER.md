@@ -11,7 +11,7 @@
 | 次のマイルストーン | Week1投稿（2026-07-06〜07-11）→30日レビュー（撤退ライン判定） |
 | LP | https://salon-reel.pages.dev（noindex限定公開・運営者情報とIGリンクが未記入） |
 | リポジトリ | https://github.com/Kimagure3737/salon-reel（Private・main→Cloudflare Pages自動デプロイ） |
-| ドキュメント同期 | docs/ ⇔ Google Drive `higgsfield/docs`（rclone） |
+| バックアップ | gitバックアップに一本化（`git add . && git commit -m "backup" && git push`。Drive同期は廃止） |
 
 ## 文書マップ
 
@@ -39,6 +39,7 @@
 | ファイル | 役割 |
 |---------|------|
 | docs/SNS_Instagram_アカウント設計.md | プロフィール文・運用設計・BGMリサーチルール（毎週月曜）・撤退ライン |
+| docs/SNS_Instagram_プロフィール確定案.md | プロフィール確定方針（名前欄・bio A案・CTA運用・@salon_reel・AI表記方針・実装前チェックリスト） |
 | docs/SNS_投稿テンプレ3型.md | A/B/C型のキャプション・ハッシュタグ・返信テンプレ・共通必須ルール |
 | docs/SNS_数値管理シート.md | Week1〜4の投稿記録・BGM列・週次サマリー |
 | docs/SNS_週次リサーチ_2026-W27.md | 週次トレンドリサーチ（スタイル・プロンプト修正方針） |
