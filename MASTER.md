@@ -9,9 +9,21 @@
 |------|------|
 | フェーズ | Phase1（実績客3〜5件の獲得）・SNS投稿主軸 |
 | 次のマイルストーン | Week1投稿（2026-07-06〜07-11）→30日レビュー（撤退ライン判定） |
-| LP | https://salon-reel.pages.dev（noindex限定公開・運営者情報とIGリンクが未記入） |
+| LP | https://salon-reel.pages.dev（noindex限定公開・運営者情報は事業者名/代表者/連絡先を反映済／住所・電話・料金は未確定） |
 | リポジトリ | https://github.com/Kimagure3737/salon-reel（Private・main→Cloudflare Pages自動デプロイ） |
 | バックアップ | gitバックアップに一本化（`git add . && git commit -m "backup" && git push`。Drive同期は廃止） |
+
+## 事業者情報
+
+| 項目 | 値 | ステータス |
+|------|-----|---------|
+| 屋号 | Kairos Creative | 確定（未登録・任意） |
+| 代表者 | 田中 英貴 | 確定 |
+| 採用予定ドメイン | kairoscreative.jp | 採用予定（未取得） |
+| 代表メール | info@kairoscreative.jp | 仮記載（ドメイン取得後に有効化） |
+| 問い合わせメール | info@kairoscreative.jp | 同上 |
+
+> ⚠️ ドメイン取得・Google Workspace設定が完了したら「ステータス」を「確定」に更新すること。
 
 ## 文書マップ
 
